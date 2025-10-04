@@ -1,0 +1,80 @@
+/* Reset margin biar rapih */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fadbdc;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #b56576;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigasi */
+nav {
+  background-color: #e5989b;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section */
+main {
+  padding: 15px;
+  margin: auto;
+}
+
+#cara-pemesanan {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: column;
+}
+#produk {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: column;
+  margin: 10px;
+}
+
+#produk ul {
+    display: flex;
+    gap: 10px;
+}
+section ul div li {
+    color: #1d0d36;
+    font-style: italic;
+}
+
+#kontak {
+margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: column;
+}
+
+/* Footer */
+footer {
+  background-color: #6d6875;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
